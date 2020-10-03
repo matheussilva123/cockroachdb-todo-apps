@@ -26,7 +26,7 @@ public class Todo implements Serializable {
     @Column(name = "created_on")
     private Timestamp createdOn;
 
-    public Todo(Long id) {
+    public Todo(final Long id) {
         this.id = id;
     }
 }
